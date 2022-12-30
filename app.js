@@ -18,10 +18,12 @@ while (!quit) {
             }
         case 'list':
             {
+                console.log("************");
                 for (let i = 0; i < todoList.length; i++)
                 {
                     console.log(`${i}: ${todoList[i]}`);
                 }
+                console.log("************");
                 break;
             }
         case 'delete':
